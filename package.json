@@ -1,0 +1,47 @@
+{
+  "name": "plater",
+  "version": "0.0.2",
+  "description": "Make markdown contents lively.",
+  "main": "lib/index.js",
+  "bin": {
+    "plater": "./bin/plater"
+  },
+  "scripts": {
+    "test": "mocha --reporter list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuanyan/plater.git"
+  },
+  "keywords": [
+    "markdown"
+  ],
+  "author": "Yuanyan Cao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuanyan/plater/issues"
+  },
+  "homepage": "https://github.com/yuanyan/plater",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "cheerio": "^0.17.0",
+    "globby": "^1.1.0",
+    "highlight.js": "^8.2.0",
+    "liftoff": "^2.0.0",
+    "lodash": "^2.4.1",
+    "marked": "^0.3.2",
+    "minimist": "^1.1.0",
+    "mkdirp": "^0.5.0",
+    "pinyin": "^2.3.3",
+    "update-notifier": "^0.3.0",
+    "xtemplate": "^3.3.0",
+    "xtpl": "^3.1.7"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  }
+}
